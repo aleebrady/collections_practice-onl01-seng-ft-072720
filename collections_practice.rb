@@ -1,5 +1,8 @@
+require 'pry'
+
 def sort_array_asc(nums)
   nums.sort
+  binding.pry
 end
 
 def sort_array_desc(nums)
